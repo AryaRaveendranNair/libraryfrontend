@@ -1,0 +1,33 @@
+.homebody{
+    min-height: 600px;
+    background-color: rgba(255, 228, 196, 0.72);
+    background-image: url('https://images.hdqwalls.com/wallpapers/girl-in-library-3j.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.loginitem{
+    /* border: 2px solid white; */
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding: 50px;
+    background-color:rgba(240, 232, 218, 0.958);
+    border-radius: 50px;
+    border: 6px solid black;
+}
+@media only screen and (min-width: 700px) {
+    .loginitem {
+        padding: 40px;
+    }
+  }
+
+  form{
+    font-family: 'Blinker', sans-serif;
+  }
+
+  button{
+    border-radius: 30px;
+    width: 100px;
+    
+  }
+  

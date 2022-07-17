@@ -1,0 +1,121 @@
+.homebody{
+    min-height: 600px;
+    background-color: rgba(255, 228, 196, 0.72);
+    /* background-image: url('https://wallpaperaccess.com/full/3133075.jpg'); */
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/50/210/450/fantasy-book-hd-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-top: -5%;
+}
+.tableitem{
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+.color1{
+    color: blue;
+    cursor: pointer;
+}
+.color2{
+    color: red;
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 550px) {
+    .invisible22{
+        display:none;
+    }
+  }
+
+  table{
+    font-family: 'Comic Neue', cursive;
+  }
+
+/* new */
+
+.bg-image {
+    /* The image used */
+    background-image:URL('https://c4.wallpaperflare.com/wallpaper/50/210/450/fantasy-book-hd-wallpaper-preview.jpg');
+  
+  
+    /* Full height */
+  /* height: 100%; */
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  *{
+    box-sizing: border-box;
+    padding: 0;
+    /* margin: 0; */
+  }
+
+
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card{
+    background-color: #fcfdfb;
+    width: 260px;
+    margin: 20px;
+    height: 410px;
+    border-radius: 10px;
+    align-items: center;
+    
+  }
+
+  .card-image{
+    /* background-color: aquamarine; */
+    width:260px;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+  }
+ 
+  .card h2{
+    /* padding: 10px; */
+    font-size: 22px;
+    font-weight:bolder;
+    align-items: center;
+    color: rgba(6, 38, 245, 0.96);
+  }
+
+  .card p{
+    /* padding-left:10px */
+    font-weight: bold;
+  }
+
+  button{
+    width: 80px;
+    height:40px;
+  }
+
+  
+  .zoom {
+    /* padding: 50px; */
+    /* background-color: green; */
+    transition: transform .8s; /* Animation */
+    width: 260px;
+    height: 410px;
+    margin: 20px;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+ p{
+    line-height: 15px;
+ }
+
+
+

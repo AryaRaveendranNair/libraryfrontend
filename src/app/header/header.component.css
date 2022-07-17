@@ -1,0 +1,26 @@
+.background{
+    background-color:blue;
+    
+}
+.search{
+    width: 150px;
+    height: 32px;
+}
+nav{
+    min-height: 65px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.nav-item{
+font-size: larger;
+}
+button{
+    border-radius: 30px;
+    color: black;
+   width: 150px;
+    font-weight: bolder;
+    font-size: large;
+}
+button:hover{
+    border: 2px solid white;
+    background-color:midnightblue;
+}
